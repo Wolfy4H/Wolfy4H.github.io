@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Playfair Display", serif;
+  font-family: "Tajawal", sans-serif;
+  font-family: "Zen Kurenaido", sans-serif;
+  color: black;
+  scroll-behavior: smooth;
+}

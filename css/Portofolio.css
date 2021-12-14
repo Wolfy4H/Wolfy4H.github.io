@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Playfair Display", serif;
+  font-family: "Tajawal", sans-serif;
+  font-family: "Zen Kurenaido", sans-serif;
+  color: black;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: aquamarine;
+}
+
+.header {
+  width: auto;
+  height: 20px;
+  background-color: rgb(209, 239, 243);
+}
+
+nav {
+  width: auto;
+  height: 30px;
+  background-color: rgba(132, 255, 255, 0.753);
+  display: flex;
+  justify-content: space-around;
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: rgba(187, 211, 202, 0.616);
+  border: solid 2px black;
+  display: flex;
+  justify-content: space-around;
+}
+
+a:hover {
+  color: rgb(201, 0, 0);
+}
+
+.circle_foto1 {
+  display: flex;
+  height: 350px;
+  width: 350px;
+  background-color: rgb(122, 116, 116);
+  border-radius: 50%;
+  display: flex;
+  border: solid black 4px;
+  margin-top: 5px;
+}
+
+.img1 {
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+}
+
+.tekst-box {
+  position: relative;
+  padding-top: 250px;
+  font-size: 17px;
+  letter-spacing: 1px;
+  line-height: 26px;
+  justify-content: space-around;
+  overflow: hidden;
+}
+
+.tekst-box::after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: -644px;
+  width: 950px;
+  height: 1000px;
+  background-color: rgb(110, 138, 160);
+  transform: rotate(45deg);
+}
+
+.introductie {
+  position: relative;
+  display: flex;
+  background-color: rgb(80, 170, 140);
+  height: 450px;
+  width: 100%;
+  border: solid 2px black;
+  overflow: hidden;
+}
+
+.introductie::before {
+  content: "";
+  position: absolute;
+  top: -500px;
+  left: -700px;
+  width: 950px;
+  height: 1000px;
+  background-color: rgb(110, 138, 160);
+  transform: rotate(45deg);
+}
+
+.introductie .overlay {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  left: 40px;
+}
+
+.aftermat .overlay2 {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  left: 40px;
+}
