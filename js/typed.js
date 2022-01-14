@@ -8,7 +8,7 @@ const typed = new Typed(".auto-input", {
     "good at helping people",
     "a good listener",
     "a gamer",
-    "a geometry dash player B)",
+    "a geometry dash player ;)",
   ],
   typeSpeed: 85,
   backSpeed: 90,
