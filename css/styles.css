@@ -37,14 +37,18 @@ footer {
   justify-content: space-around;
 }
 
+.auto-input {
+  color: rgb(45, 226, 45);
+}
+
 a:hover {
   color: rgb(201, 0, 0);
 }
 
 .circle_foto1 {
   display: flex;
-  height: 350px;
-  width: 350px;
+  height: 400px;
+  width: 400px;
   background-color: rgb(122, 116, 116);
   border-radius: 50%;
   display: flex;
@@ -127,19 +131,48 @@ a:hover {
 }
 
 .background_upper_mid {
-  height: 2000px;
+  height: 1000px;
   width: 100%;
   background-color: rgb(69, 106, 134);
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .background_mid_mid {
-  height: 2000px;
+  height: 1000px;
   width: 100%;
   background-color: rgb(57, 69, 136);
 }
 
 .background_bottem_mid {
-  height: 2000px;
+  height: 1000px;
   width: 100%;
   background-color: rgb(22, 3, 129);
+}
+
+.background_upper_mid .tekst1 {
+  background-color: red;
+  height: 400px;
+  width: 500px;
+  border: solid black 3px;
+  margin-top: 300px;
+  margin-left: 100px;
+}
+
+.background_upper_mid .circle_photo {
+  background-color: red;
+  height: 250px;
+  width: 250px;
+  border: solid black 3px;
+  border-radius: 50%;
+  margin-top: 250px;
+  margin-left: 350px;
+}
+
+.background_upper_mid .tekst_links_onder {
+  background-color: red;
+  height: 200px;
+  width: 400px;
+  border: solid black 3px;
+  margin-top: 150px;
 }
