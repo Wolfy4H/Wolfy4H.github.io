@@ -16,13 +16,13 @@ body {
 .header {
   width: auto;
   height: 20px;
-  background-color: rgb(209, 239, 243);
+  background-color: rgb(125, 255, 153);
 }
 
 nav {
   width: auto;
-  height: 30px;
-  background-color: rgba(132, 255, 255, 0.753);
+  height: 50px;
+  background-color: rgba(125, 255, 153);
   border-bottom: solid 2px black;
   display: flex;
   justify-content: space-around;
@@ -31,7 +31,7 @@ nav {
 footer {
   width: 100%;
   height: 100px;
-  background-color: rgba(15, 3, 66, 0.616);
+  background-color: rgba(125, 255, 153);
   border-top: solid 2px black;
   display: flex;
   justify-content: space-around;
@@ -130,7 +130,7 @@ a:hover {
   left: 40px;
 }
 
-.background_upper_mid {
+.background_top {
   height: 1000px;
   width: 100%;
   background-color: rgb(69, 106, 134);
@@ -138,19 +138,32 @@ a:hover {
   flex-wrap: wrap;
 }
 
-.background_mid_mid {
+.background_mid_topmid {
   height: 1000px;
   width: 100%;
   background-color: rgb(57, 69, 136);
 }
 
-.background_bottem_mid {
+.background_mid_mid {
   height: 1000px;
   width: 100%;
   background-color: rgb(22, 3, 129);
 }
 
-.background_upper_mid .tekst1 {
+.background_mid_bottemmid {
+  height: 1000px;
+  width: 100%;
+  background-color: rgb(13, 0, 87);
+}
+
+.background_bottem {
+  height: 1000px;
+  width: 100%;
+  background-color: rgb(18, 14, 44);
+}
+
+/*hier begint de code van p1*/
+.background_top .p1tekst1 {
   background-color: red;
   height: 400px;
   width: 500px;
@@ -159,20 +172,38 @@ a:hover {
   margin-left: 100px;
 }
 
-.background_upper_mid .circle_photo {
+.background_top .p1circle_photo {
   background-color: red;
-  height: 250px;
-  width: 250px;
+  height: 450px;
+  width: 450px;
   border: solid black 3px;
   border-radius: 50%;
-  margin-top: 250px;
-  margin-left: 350px;
+  margin-top: 150px;
+  margin-left: 225px;
 }
 
-.background_upper_mid .tekst_links_onder {
+.background_top .p1tekst_rechts_onder {
   background-color: red;
-  height: 200px;
+  height: 125px;
   width: 400px;
   border: solid black 3px;
-  margin-top: 150px;
+  margin-left: 950px;
+  margin-bottom: 350px;
 }
+/*hier eindigt de code van p1*/
+
+/*hier begint de code van p2*/
+
+/*hier eindigt de code van p2*/
+
+/*hier begint de code van p3*/
+
+/*hier eindigt de code van p3*/
+
+/*hier begint de code van p4*/
+
+/*hier eindigt de code van p4*/
+
+/*hier begint de code van p5*/
+
+/*hier eindigt de code van p5*/
