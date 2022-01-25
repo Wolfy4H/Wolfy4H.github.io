@@ -6,7 +6,7 @@
   font-family: "Tajawal", sans-serif;
   font-family: "Zen Kurenaido", sans-serif;
   scroll-behavior: smooth;
-  color: black;
+  color: orange;
 }
 
 body {
@@ -17,24 +17,32 @@ body {
   width: auto;
   height: 20px;
   background-color: rgb(125, 255, 153);
+  color: black;
 }
 
 nav {
   width: auto;
-  height: 50px;
+  height: 70px;
   background-color: rgba(125, 255, 153);
-  border-bottom: solid 2px black;
+  border-bottom: solid 3px black;
   display: flex;
   justify-content: space-around;
+  color: black !important;
+}
+
+a {
+  color: rgb(161, 0, 161);
+  font-size: 20px;
 }
 
 footer {
   width: 100%;
   height: 100px;
   background-color: rgba(125, 255, 153);
-  border-top: solid 2px black;
+  border-top: solid 3px black;
   display: flex;
   justify-content: space-around;
+  color: black;
 }
 
 .auto-input {
@@ -52,7 +60,7 @@ a:hover {
   background-color: rgb(122, 116, 116);
   border-radius: 50%;
   display: flex;
-  border: solid black 4px;
+  border: solid black 3px;
   margin-top: 5px;
 }
 
@@ -65,7 +73,7 @@ a:hover {
 .vierkantfoto1 {
   width: 100px;
   height: 100px;
-  border: solid 2px black;
+  border: solid 3px black;
 }
 
 .tekst-box {
@@ -129,7 +137,7 @@ a:hover {
   height: 100%;
   left: 40px;
 }
-
+/*P1*/
 .background_top {
   height: 1000px;
   width: 100%;
@@ -138,24 +146,82 @@ a:hover {
   flex-wrap: wrap;
 }
 
+/* begin trasn p1-p2*/
+.trans_p1-p2 {
+  background: rgb(69, 106, 134);
+  background: linear-gradient(
+    180deg,
+    rgba(69, 106, 134, 1) 0%,
+    rgba(57, 69, 137, 1) 100%
+  );
+  width: 100%;
+  height: 250px;
+}
+/*einde trans p1-p2*/
+
+/*P2*/
 .background_mid_topmid {
   height: 1000px;
   width: 100%;
   background-color: rgb(57, 69, 136);
+  display: flex;
+  flex-wrap: wrap;
 }
 
+/* begin trasn p2-p3*/
+.trans_p2-p3 {
+  background: rgb(57, 69, 137);
+  background: linear-gradient(
+    180deg,
+    rgba(57, 69, 137, 1) 0%,
+    rgba(22, 3, 129, 1) 100%
+  );
+  width: 100%;
+  height: 250px;
+}
+/*einde trans p2-p3*/
+
+/*P3*/
 .background_mid_mid {
   height: 1000px;
   width: 100%;
   background-color: rgb(22, 3, 129);
 }
 
+/* begin trasn p3-p4*/
+.trans_p3-p4 {
+  background: rgb(22, 3, 129);
+  background: linear-gradient(
+    180deg,
+    rgba(22, 3, 129, 1) 0%,
+    rgba(13, 0, 87, 1) 100%
+  );
+  width: 100%;
+  height: 250px;
+}
+/*einde trans p3-p4*/
+
+/*P4*/
 .background_mid_bottemmid {
   height: 1000px;
   width: 100%;
   background-color: rgb(13, 0, 87);
 }
 
+/* begin trasn p4-p5 */
+.trans_p4-p5 {
+  background: rgb(13, 0, 87);
+  background: linear-gradient(
+    180deg,
+    rgba(13, 0, 87, 1) 0%,
+    rgba(18, 14, 44, 1) 100%
+  );
+  width: 100%;
+  height: 250px;
+}
+/*einde trans p4-p5*/
+
+/*P5*/
 .background_bottem {
   height: 1000px;
   width: 100%;
@@ -193,17 +259,197 @@ a:hover {
 /*hier eindigt de code van p1*/
 
 /*hier begint de code van p2*/
+.background_mid_topmid .p2afbeelding_links_boven {
+  background-color: red;
+  height: 250px;
+  width: 250px;
+  border: solid black 3px;
+  border-radius: 50%;
+  margin-top: 50px;
+  margin-left: 20%;
+}
 
+.background_mid_topmid .p2tekst_rechts_boven {
+  background-color: red;
+  height: 250px;
+  width: 450px;
+  border: solid black 3px;
+  margin-left: 900px;
+  margin-bottom: 200px;
+}
+
+.background_mid_topmid .p2tekst_mid_links {
+  background-color: red;
+  height: 125px;
+  width: 400px;
+  border: solid black 3px;
+}
+
+.background_mid_topmid .p2afbeeldingen_rechts_mid_vierkant {
+  background-color: red;
+  height: 125px;
+  width: 400px;
+  border: solid black 3px;
+  margin-right: 250px;
+  margin-top: 100px;
+}
+
+.background_mid_topmid
+  .p2afbeeldingen_rechts_mid_vierkant
+  .p2afbeelding_mid_rechts1 {
+  background-color: red;
+  height: 250px;
+  width: 250px;
+  border: solid black 3px;
+  border-radius: 50%;
+  margin-top: 50px;
+  margin-left: 20%;
+}
+
+.background_mid_topmid
+  .p2afbeeldingen_rechts_mid_vierkant
+  .p2afbeelding_mid_rechts2 {
+  background-color: red;
+  height: 250px;
+  width: 250px;
+  border: solid black 3px;
+  border-radius: 50%;
+  margin-top: 50px;
+  margin-left: 20%;
+}
+
+.background_mid_topmid .p2tekst_link_onder {
+  background-color: red;
+  height: 125px;
+  width: 400px;
+  border: solid black 3px;
+}
+
+.background_mid_topmid .p2afbeelding_mid_onder {
+  background-color: red;
+  height: 125px;
+  width: 400px;
+  border: solid black 3px;
+}
+
+.background_mid_topmid .p2tekst_rechts_onder {
+  background-color: red;
+  height: 125px;
+  width: 400px;
+  border: solid black 3px;
+}
 /*hier eindigt de code van p2*/
 
 /*hier begint de code van p3*/
+.background_mid_mid .p3afbeelding_links_boven {
+  background-color: red;
+  height: 250px;
+  width: 250px;
+  border: solid black 3px;
+  border-radius: 50%;
+  margin-top: 50px;
+  margin-left: 20%;
+}
+.background_mid_mid .p3tekst_rechts_all {
+  background-color: red;
+  height: 125px;
+  width: 400px;
+  border: solid black 3px;
+}
+.background_mid_mid .p3links_mid_onder {
+  background-color: red;
+  height: 125px;
+  width: 400px;
+  border: solid black 3px;
+}
 
+.background_mid_mid .p3links_mid_onder .afbeelding_links_mid {
+  background-color: red;
+  height: 250px;
+  width: 250px;
+  border: solid black 3px;
+  border-radius: 50%;
+  margin-top: 50px;
+  margin-left: 20%;
+}
+
+.background_mid_mid .p3links_mid_onder .tekst_links_onder {
+  background-color: red;
+  height: 125px;
+  width: 400px;
+  border: solid black 3px;
+}
 /*hier eindigt de code van p3*/
 
 /*hier begint de code van p4*/
+.background_mid_bottemmid .p4formulier_links_all {
+  background-color: red;
+  height: 125px;
+  width: 400px;
+  border: solid black 3px;
+}
 
+.background_mid_bottemmid .p4afbeelding_mid_mid {
+  background-color: red;
+  height: 250px;
+  width: 250px;
+  border: solid black 3px;
+  border-radius: 50%;
+  margin-top: 50px;
+  margin-left: 20%;
+}
+
+.background_mid_bottemmid .p4list_rechts_boven {
+  background-color: red;
+  height: 125px;
+  width: 400px;
+  border: solid black 3px;
+}
+
+.background_mid_bottemmid .p4tabel_rechts_onder {
+  background-color: red;
+  height: 125px;
+  width: 400px;
+  border: solid black 3px;
+}
 /*hier eindigt de code van p4*/
 
 /*hier begint de code van p5*/
+.background_bottem .p5list_links_boven {
+  background-color: red;
+  height: 125px;
+  width: 400px;
+  border: solid black 3px;
+}
 
+.background_bottem .p5tabel_links_mid {
+  background-color: red;
+  height: 125px;
+  width: 400px;
+  border: solid black 3px;
+}
+
+.background_bottem .p5rechts_boven_mid {
+  background-color: red;
+  height: 125px;
+  width: 400px;
+  border: solid black 3px;
+}
+
+.background_bottem .p5rechts_boven_mid .p5afbeelding_rechts_boven {
+  background-color: red;
+  height: 250px;
+  width: 250px;
+  border: solid black 3px;
+  border-radius: 50%;
+  margin-top: 50px;
+  margin-left: 20%;
+}
+
+.background_bottem .p5rechts_boven_mid .p5button_rechts_onder {
+  background-color: red;
+  height: 125px;
+  width: 400px;
+  border: solid black 3px;
+}
 /*hier eindigt de code van p5*/
