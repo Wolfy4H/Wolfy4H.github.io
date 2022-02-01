@@ -57,7 +57,6 @@ a:hover {
   display: flex;
   height: 400px;
   width: 400px;
-  background-color: rgb(122, 116, 116);
   border-radius: 50%;
   display: flex;
   border: solid black 3px;
@@ -259,158 +258,145 @@ a:hover {
 /*hier eindigt de code van p1*/
 
 /*hier begint de code van p2*/
-.background_mid_topmid .p2afbeelding_links_boven {
-  background-color: red;
-  height: 250px;
-  width: 250px;
-  border: solid black 3px;
+.background_mid_boven {
+  width: 100%;
+  height: 75%;
+  display: flex;
+  flex-direction: row;
+}
+.mid_boven_links {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.background_mid_boven_boven {
+  width: 50%;
+  height: 50%;
+  background-color: brown;
   border-radius: 50%;
-  margin-top: 50px;
-  margin-left: 20%;
-}
-
-.background_mid_topmid .p2tekst_rechts_boven {
-  background-color: red;
-  height: 250px;
-  width: 450px;
-  border: solid black 3px;
-  margin-left: 900px;
-  margin-bottom: 200px;
-}
-
-.background_mid_topmid .p2tekst_mid_links {
-  background-color: red;
-  height: 125px;
-  width: 400px;
+  margin-left: 25%;
   border: solid black 3px;
 }
-
-.background_mid_topmid .p2afbeeldingen_rechts_mid_vierkant {
-  background-color: red;
-  height: 125px;
-  width: 400px;
+.background_mid_boven_onder {
+  width: 80%;
+  height: 35%;
+  background-color: whitesmoke;
   border: solid black 3px;
-  margin-right: 250px;
-  margin-top: 100px;
+  margin-left: 10%;
+  margin-top: 7%;
 }
 
-.background_mid_topmid
-  .p2afbeeldingen_rechts_mid_vierkant
-  .p2afbeelding_mid_rechts1 {
+.mid_boven_rechts {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.background_mid_boven_rechts_boven {
+  width: 80%;
+  height: 30%;
   background-color: red;
-  height: 250px;
+  border: solid black 3px;
+  margin-right: 10%;
+  margin-top: 10%;
+}
+
+.background_mid_boven_rechts_onder {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+}
+
+.mid_boven_rechts_onder_links {
   width: 250px;
-  border: solid black 3px;
-  border-radius: 50%;
-  margin-top: 50px;
-  margin-left: 20%;
-}
-
-.background_mid_topmid
-  .p2afbeeldingen_rechts_mid_vierkant
-  .p2afbeelding_mid_rechts2 {
-  background-color: red;
   height: 250px;
-  width: 250px;
-  border: solid black 3px;
+  background-color: purple;
   border-radius: 50%;
-  margin-top: 50px;
-  margin-left: 20%;
+  border: solid black 3px;
+  margin-top: 15%;
+}
+.mid_boven_rechts_onder_rechts {
+  width: 250px;
+  height: 250px;
+  background-color: green;
+  border-radius: 50%;
+  border: solid black 3px;
+  margin-top: 15%;
 }
 
-.background_mid_topmid .p2tekst_link_onder {
-  background-color: red;
-  height: 125px;
-  width: 400px;
+.background_mid_onder {
+  width: 100%;
+  height: 25%;
+  display: flex;
+  flex-direction: row;
+}
+
+.onder_mid_links {
+  width: 20%;
+  height: 60%;
+  background-color: yellow;
+  border: solid black 3px;
+  margin-top: 5%;
+  margin-left: 10%;
+}
+
+.onder_mid_mid {
+  width: 20%;
+  height: 100%;
+  background-color: pink;
+  border-radius: 50%;
+  margin-top: 2%;
+  margin-left: 10%;
   border: solid black 3px;
 }
 
-.background_mid_topmid .p2afbeelding_mid_onder {
-  background-color: red;
-  height: 125px;
-  width: 400px;
+.onder_mid_rechts {
+  width: 20%;
+  height: 60%;
+  background-color: burlywood;
   border: solid black 3px;
+  margin-top: 5%;
+  margin-left: 10%;
 }
 
-.background_mid_topmid .p2tekst_rechts_onder {
-  background-color: red;
-  height: 125px;
-  width: 400px;
-  border: solid black 3px;
-}
 /*hier eindigt de code van p2*/
 
 /*hier begint de code van p3*/
-.background_mid_mid .p3afbeelding_links_boven {
-  background-color: red;
-  height: 250px;
-  width: 250px;
-  border: solid black 3px;
-  border-radius: 50%;
-  margin-top: 50px;
-  margin-left: 20%;
-}
-.background_mid_mid .p3tekst_rechts_all {
-  background-color: red;
-  height: 125px;
-  width: 400px;
-  border: solid black 3px;
-}
-.background_mid_mid .p3links_mid_onder {
-  background-color: red;
-  height: 125px;
-  width: 400px;
-  border: solid black 3px;
+.tabel_mijnskills {
 }
 
-.background_mid_mid .p3links_mid_onder .afbeelding_links_mid {
-  background-color: red;
-  height: 250px;
-  width: 250px;
-  border: solid black 3px;
-  border-radius: 50%;
-  margin-top: 50px;
-  margin-left: 20%;
-}
-
-.background_mid_mid .p3links_mid_onder .tekst_links_onder {
-  background-color: red;
-  height: 125px;
-  width: 400px;
-  border: solid black 3px;
+.list_info {
 }
 /*hier eindigt de code van p3*/
 
 /*hier begint de code van p4*/
 .background_mid_bottemmid .p4formulier_links_all {
   background-color: red;
-  height: 125px;
-  width: 400px;
+  height: 80%;
+  width: 55%;
   border: solid black 3px;
+  margin-top: 10%;
+  margin-left: 10%;
 }
 
-.background_mid_bottemmid .p4afbeelding_mid_mid {
-  background-color: red;
-  height: 250px;
-  width: 250px;
+.p4formulier_binnenkant {
+  margin-left: 4%;
+  margin-top: 4%;
+}
+
+.background_mid_bottemmid .background_mid_bottemmid .p4filmpje_rechts_all {
+  background-color: goldenrod;
+  height: 60%;
+  width: 35%;
   border: solid black 3px;
-  border-radius: 50%;
   margin-top: 50px;
   margin-left: 20%;
-}
-
-.background_mid_bottemmid .p4list_rechts_boven {
-  background-color: red;
-  height: 125px;
-  width: 400px;
-  border: solid black 3px;
-}
-
-.background_mid_bottemmid .p4tabel_rechts_onder {
-  background-color: red;
-  height: 125px;
-  width: 400px;
-  border: solid black 3px;
 }
 /*hier eindigt de code van p4*/
 
