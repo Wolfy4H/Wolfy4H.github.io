@@ -384,7 +384,7 @@ a:hover {
   border: solid black 3px;
   margin-left: 50px;
   margin-top: 50px;
-  background-color: rgb(13, 0, 87);
+  background-color: rgba(13, 0, 87, 0.377);
 }
 
 .base_info_txt_bar {
@@ -428,7 +428,7 @@ a:hover {
 }
 
 .tabel {
-  background-color: rgb(13, 0, 87);
+  background-color: rgb(13, 0, 87, 0.377);
   border: solid black 3px;
   height: 400px;
   width: 400px;
