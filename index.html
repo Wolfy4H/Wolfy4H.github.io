@@ -5,20 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Leon Kersten portofolio</title>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="css/styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&family=Tajawal&family=Zen+Kurenaido&display=swap"
-      rel="stylesheet"
-    />
+
   </head>
   <body>
     <header>
       <nav>
-        <a href="aboutme.html" pagina3>About Me</a>
-        <a href="contact.html" pagina1>Contact</a>
+        <ul class="navegatie_list">
+          <li><a href="Wiebenik.html">wie ben ik</a></li>
+          <li><a href="overmij.html">over mij</a></li>
+          <li><a href="mijnskills.html">mijn skills</a></li>
+          <li><a href="infulformulier.html">infulformulier</a></li>
+          <li><a href="contact.html">contact</a></li>
+        </ul>
+        
+        
       </nav>
     </header>
 
@@ -57,7 +62,7 @@
 
     <!---hier begint de code van p2--->
     <div class="background_mid_topmid">
-      <h1>about me</h1>
+      <h1>over mij</h1>
       <div class="background_mid_boven">
         <div class="mid_boven_links">
           <div class="background_mid_boven_boven"></div>
@@ -83,9 +88,77 @@
 
     <!---hier begint de code van p3--->
     <div class="background_mid_mid">
+
       <h1>mijn skills</h1>
-      <div class="tabel_mijnskills"></div>
-      <div class="list_info"></div>
+
+      <div class="skill_lines">
+      <div>
+        <div class="base_info_txt_bar_txt">
+        <p class="categorie">
+          HTML CSS
+        </p>
+      </div>
+      <div class="base_info_txt_bar">
+        <div class="base_info_txt_bar_fill1" style="width: 40%;"></div>
+      </div>
+      </div>
+
+      <div>
+        <div class="base_info_txt_bar_txt">
+        <p class="categorie">
+          JAVA
+        </p>
+      </div>
+      <div class="base_info_txt_bar">
+        <div class="base_info_txt_bar_fill2" style="width: 45%;"></div>
+      </div>
+      </div>
+
+      <div>
+        <div class="base_info_txt_bar_txt">
+        <p class="categorie">
+          PYTHON
+        </p>
+      </div>
+      <div class="base_info_txt_bar">
+        <div class="base_info_txt_bar_fill3" style="width: 30%;"></div>
+      </div>
+      </div>
+
+      <div>
+        <div class="base_info_txt_bar_txt">
+        <p class="categorie">
+          SCRUM
+        </p>
+      </div>
+      <div class="base_info_txt_bar">
+        <div class="base_info_txt_bar_fill4" style="width: 80%;"></div>
+      </div>
+      </div>
+
+    </div>
+
+    <div class="tabel">
+    <table>
+      <tr>
+        <th>HTML</th>
+        <th>JAVA</th>
+        <th>PYTHON</th>
+        <th>SCRUM</th>
+      </tr>
+      <tr>
+        <td>Css</td>
+        <td>java</td>
+        <td>w3schools</td>
+      </tr>
+      <tr>
+        <td>w3schools</td>
+        <td>Francisco Chang</td>
+        <td>Mexico</td>
+      </tr>
+    </table>
+  </div>
+
     </div>
     <!---hier eindigt de code van p3--->
 
@@ -93,25 +166,23 @@
 
     <!---hier begint de code van p4--->
     <div class="background_mid_bottemmid">
-      <h1>invulformulier</h1>
+      <h1>infulformulier</h1>
       <div class="p4formulier_links_all">
         <div class="p4formulier_binnenkant">
         <form action="/action_page.php"> 
           <label for="fname">First name:</label><br />
-          <input type="text" id="fname" name="fname" value="" /><br />
+          <input class="brete_formulier" type="text" id="fname" name="fname" value="" /><br />
           <label for="lname">Last name:</label><br />
-          <input type="text" id="lname" name="lname" value="" /><br />
+          <input class="brete_formulier" type="text" id="lname" name="lname" value="" /><br />
           <label for="password">email:</label><br />
-          <input type="text" id="email" name="email" value="" /><br />
+          <input class="brete_formulier" type="text" id="email" name="email" value="" /><br />
           <label for="password">password:</label><br />
-          <input type="text" id="password" name="password" value="" /><br />
+          <input class="brete_formulier" type="text" id="password" name="password" value="" /><br />
           <label for="password">repeat password:</label><br />
-          <input
-            type="text"
-            id="password"
-            name="password"
-            value=""
-          /><br /><br />
+          <input class="brete_formulier" type="text" id="repeat-password" name="password" value="" /><br /> <br />
+          <label for="leon">feedback:</label>
+          <textarea class="banaan_type"name="leon" id="" cols="100" rows="15"></textarea>
+          <br /><br />
           <input type="submit" value="Submit" />
         </div>
         </form>
@@ -124,7 +195,7 @@
 
     <!---hier begint de code van p5--->
     <div class="background_bottem">
-      <h1>laatste beetjes</h1>
+      <h1>contact</h1>
       <div class="p5list_links_boven"></div>
       <div class="p5tabel_links_mid"></div>
       <div class="p5rechts_boven_mid">
@@ -135,8 +206,7 @@
     <!---hier eindigt de code van p5--->
 
     <footer>
-      <a class="contact" href="contact.html" pagina1>Contact</a>
-      <a class="aboutme" href="aboutme.html" pagina2>Pagina</a>
+      <p>© 2022 | Leon Kersten</p>
     </footer>
   </body>
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
