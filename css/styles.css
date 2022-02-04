@@ -477,6 +477,7 @@ a:hover {
   margin-left: 20%;
 }
 
+/*in formulier de tekst achtergrond kleur*/
 input {
   width: 80%;
   height: 40px;
@@ -496,6 +497,7 @@ input {
 
 /*hier begint de code van p5*/
 
+/*plekken van waar je me kan vinden in contact*/
 .spots {
   width: 100%;
   height: 200px;
@@ -514,6 +516,7 @@ input {
   border: black solid 3px;
 }
 
+/*logo's grote en borders*/
 .logos {
   width: 180px;
   height: 180px;
